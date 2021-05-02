@@ -52,7 +52,7 @@ echo "Compiling FFMPEG"
 
 mkdir ffmpeg_src/
 cd ffmpeg_src/
-curl -sL https://github.com/giusedroid/ffmpeg-lgpl-amazonlinux2/blob/master/ffmpeg/ffmpeg-${FFMPEG_VERSION}.tar.bz2?raw=true > ffmpeg.tar.bz2 && \
+curl -sL https://github.com/giusedroid/ffmpeg-lgpl-amazonlinux2/blob/main/ffmpeg/ffmpeg-${FFMPEG_VERSION}.tar.bz2?raw=true > ffmpeg.tar.bz2 && \
         tar -jx --strip-components=1 -f ffmpeg.tar.bz2
         
 PATH="$PREFIX/bin:$PATH"

@@ -29,3 +29,9 @@ ffmpeg version 4.2.2 Copyright (c) 2000-2019 the FFmpeg developers
 ```
 FFmpeg has been compiled **without** `--enable-gpl` and `--enable-nonfree` in order to comply with the terms of [LGPLv2.1](/ffmpeg/LICENSE).  
 You can have further details on the compilation process in the [Dockerfile](/Dockerfile) and in the [local build script](/build.sh) 
+
+You can check that the `ffmpeg` single binary has no dynamic dependencies by
+```
+Admin:~/environment $ ldd ./ffmpeg
+        not a dynamic executable
+```
