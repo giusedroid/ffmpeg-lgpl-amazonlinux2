@@ -71,6 +71,7 @@ RUN \
         make && \
         make install
 
+RUN amazon-linux-extras install python3
 
 RUN pip3 install -U pip && python3 -m pip install awscli boto3
 
