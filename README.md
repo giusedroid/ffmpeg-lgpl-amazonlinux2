@@ -35,3 +35,14 @@ You can check that the `ffmpeg` single binary has no dynamic dependencies by
 Admin:~/environment $ ldd ./ffmpeg
         not a dynamic executable
 ```
+
+## Binaries
+Standalone Binaries for FFmpeg and FFprobe compiled on Amazonlinux2 are available [here](/bin).  
+These have been compiled with the same configuration set.
+
+## Buy Me a Beer
+If you found this useful, please feel free to buy me a beer or a coffee.  
+[Monzo](https://monzo.me/giusebattista)
+
+## Follow me on Twitter
+You can find me on Twitter as [giusedroid](https://twitter.com/giusedroid)
