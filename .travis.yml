@@ -6,8 +6,8 @@ services:
 language: generic
 
 script:
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+  - if [ "$TRAVIS_BRANCH" == "main" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    docker build . -t giusedroid/ffmpeg-lgpl:ubuntu;
-    docker push giusedroid/ffmpeg-lgpl:ubuntu;
+    docker build . -t giusedroid/ffmpeg-lgpl:amazonlinux2;
+    docker push giusedroid/ffmpeg-lgpl:amazonlinux2;
     fi
