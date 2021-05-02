@@ -40,6 +40,15 @@ Admin:~/environment $ ldd ./ffmpeg
 Standalone Binaries for FFmpeg and FFprobe compiled on Amazonlinux2 are available [here](/bin).  
 These have been compiled with the same configuration set.
 
+## Release
+You can find an achive with both FFmpeg and FFprobe static binaries for AmazonLinux2 [here](/release/ffmpeg-static-amazonlinux2-lgpl.tar.gz).
+
+## Docker
+You can pull this image from DockerHub by doing the following
+```
+docker pull giusedroid/ffmpeg-lgpl:amazonlinux2
+```
+
 ## Buy Me a Beer
 If you found this useful, please feel free to buy me a beer or a coffee.  
 [Monzo](https://monzo.me/giusebattista)
